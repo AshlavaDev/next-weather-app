@@ -1,13 +1,13 @@
-import Link from "next/link"
+import Link from "next/link";
 
 import {
   NavigationMenuItem,
-  NavigationMenuLink
-} from "@/components/ui/navigation-menu"
+  NavigationMenuLink,
+} from "@/components/ui/navigation-menu";
 
 interface NavBarItemProps {
-  href: string
-  label: string
+  href: string;
+  label: string;
 }
 
 export default function NavBarItem(props: NavBarItemProps) {
@@ -19,5 +19,5 @@ export default function NavBarItem(props: NavBarItemProps) {
         </NavigationMenuLink>
       </Link>
     </NavigationMenuItem>
-  )
+  );
 }
